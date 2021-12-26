@@ -1,0 +1,4 @@
+com\laioffer\demo\entity\response\Game$Builder.class
+com\laioffer\demo\entity\response\Game.class
+com\laioffer\demo\ApplicationConfig.class
+com\laioffer\demo\controller\GameController.class
