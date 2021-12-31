@@ -1,4 +1,7 @@
-com\laioffer\demo\entity\response\Game$Builder.class
-com\laioffer\demo\entity\response\Game.class
-com\laioffer\demo\ApplicationConfig.class
-com\laioffer\demo\controller\GameController.class
+com/laioffer/demo/entity/response/Game$1.class
+com/laioffer/demo/ApplicationConfig.class
+com/laioffer/demo/entity/response/Game.class
+com/laioffer/demo/service/GameService.class
+com/laioffer/demo/service/TwitchException.class
+com/laioffer/demo/controller/GameController.class
+com/laioffer/demo/entity/response/Game$Builder.class
