@@ -1,5 +1,8 @@
 /home/shuai/Documents/LaiOffer-Program/Demo/src/main/java/com/laioffer/demo/controller/GameController.java
+/home/shuai/Documents/LaiOffer-Program/Demo/src/main/java/com/laioffer/demo/entity/db/ItemType.java
 /home/shuai/Documents/LaiOffer-Program/Demo/src/main/java/com/laioffer/demo/service/TwitchException.java
+/home/shuai/Documents/LaiOffer-Program/Demo/src/main/java/com/laioffer/demo/entity/db/Item.java
+/home/shuai/Documents/LaiOffer-Program/Demo/src/main/java/com/laioffer/demo/entity/db/User.java
 /home/shuai/Documents/LaiOffer-Program/Demo/src/main/java/com/laioffer/demo/service/GameService.java
 /home/shuai/Documents/LaiOffer-Program/Demo/src/main/java/com/laioffer/demo/ApplicationConfig.java
 /home/shuai/Documents/LaiOffer-Program/Demo/src/main/java/com/laioffer/demo/entity/response/Game.java
