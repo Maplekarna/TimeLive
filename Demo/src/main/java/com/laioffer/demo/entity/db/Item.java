@@ -110,5 +110,15 @@ public class Item implements Serializable {
     public void setType(ItemType type) {
         this.type = type;
     }
+
+    @PostPersist
+    public void postPersist() {
+
+    }
+
+    @PostLoad
+    public void postLoad() {
+
+    }
 }
 
