@@ -62,10 +62,10 @@ class App extends React.Component {
                 <Button shape="round" onClick={this.signoutOnClick}>
                   Logout</Button> :
                 (
-                  <React.Fragment>
+                  <>
                     <Login onSuccess={this.signinOnSuccess} />
                     <Register />
-                  </React.Fragment>
+                  </>
                 )
               }
             </Col>
