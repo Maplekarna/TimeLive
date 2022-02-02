@@ -18,12 +18,12 @@ com/laioffer/demo/service/GameService.class
 com/laioffer/demo/controller/GameController.class
 com/laioffer/demo/entity/response/Game$Builder.class
 com/laioffer/demo/service/FavoriteService.class
-com/laioffer/demo/entity/response/Game.class
 com/laioffer/demo/controller/SearchController.class
+com/laioffer/demo/entity/response/Game.class
 com/laioffer/demo/controller/LoginController.class
 com/laioffer/demo/service/RegisterService.class
 com/laioffer/demo/entity/db/Item.class
 com/laioffer/demo/entity/request/LoginRequestBody.class
-com/laioffer/demo/service/LoginService.class
-com/laioffer/demo/controller/FavoriteController.class
 com/laioffer/demo/controller/RegisterController.class
+com/laioffer/demo/controller/FavoriteController.class
+com/laioffer/demo/service/LoginService.class

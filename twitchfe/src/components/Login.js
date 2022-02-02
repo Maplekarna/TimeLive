@@ -35,7 +35,7 @@ class Login extends React.Component {
  
   render = () => {
     return (
-      <>
+      <React.Fragment>
         <Button shape="round" onClick={this.signinOnClick} style={{ marginRight: '20px' }}>
         Login</Button>
         <Modal
@@ -72,7 +72,7 @@ class Login extends React.Component {
             </Form.Item>
           </Form>
         </Modal>
-      </>
+      </React.Fragment>
     )
   }
 }
