@@ -23,7 +23,10 @@ class CustomSearch extends React.Component {
   onSubmit = (data) => {
     searchGameByName(data.game_name)
       .then((data) => {
-        console.log(data);
+        this.setState({
+          displayModal: false,
+        })
+        this.props.onSuccess(data);
       })
       .catch((err) => {
         message.error(err.message);
@@ -32,11 +35,11 @@ class CustomSearch extends React.Component {
  
   render = () => {
     return (
-      <React.Fragment>
+      <>
         <Button shape="round" onClick={this.searchOnClick} icon={<SearchOutlined />} style={{ marginLeft: '20px', marginTop: '20px'}}>
-          Custom Search</Button>
+          Custom Search </Button>
         <Modal
-          title="Custom Search"
+          title="Search"
           visible={this.state.displayModal}
           onCancel={this.handleCancel}
           footer={null}
@@ -58,7 +61,7 @@ class CustomSearch extends React.Component {
             </Form.Item>
           </Form>
         </Modal>
-      </React.Fragment>
+      </>
     )
   }
 }
