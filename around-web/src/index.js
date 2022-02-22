@@ -4,6 +4,7 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
+// index.html --> index.css + index.js --> App.js
 // Parameters of render, render is a method.
 ReactDOM.render(
     <App />,
